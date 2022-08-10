@@ -1,0 +1,35 @@
+*{
+    background: #F3F5FC;
+};
+
+/* body{
+    background: #F3F5FC;
+}; */
+
+.caja{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+};
+
+.logo{
+width: 120px;
+height: 48px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+};
+
+.text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    color: #0A3871;
+};
+
+
+
