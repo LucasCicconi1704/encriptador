@@ -10,19 +10,19 @@
     <img class="logo-img" src="public/images/logo.png">
     <main class="container">
         
-        <div class="left">
+        <section class="left">
             <input class="input-txt" id="inputTxt" type="text" placeholder="Ingrese el texto aqui" 
             Ingrese el texto aqui>
-        </div>
-        <div class="right">
+        </section>
+        <section class="right">
             <img src="public/images/muñeco.png" id="right-img" alt="imagen">
                 <h1 id="right-txt">Ningún mensaje fue encontrado</h1>
                 <textarea name="name" rows="8" cols="80" id="right-txt-2" placeholder="">Ingresa el texto que desees encriptar o desencriptar.
                 </textarea>
                 <button id="copy-btn" type="button" name="button" onclick="copiarTxt()">Copy</button>
-        </div>
+        </section>
         <div class="left-buttons">
-            <p class="alert"><img src="public/images/alerta.png"> minusculas y sin acentos</p>
+            <p class="alert"><img src="public/images/alerta.png">   Solo letras minúsculas y sin acentos</p>
             <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
             <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
         </div>
